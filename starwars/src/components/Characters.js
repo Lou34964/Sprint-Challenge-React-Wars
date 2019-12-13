@@ -12,7 +12,7 @@ const StyledCard = styled.div`
    
 `;
 
-export default function Characters() {
+function Characters() {
 
     const [characters, setCharacters] = useState([]);
 
@@ -47,3 +47,5 @@ export default function Characters() {
         </StyledCard>      
     );
 }
+
+export default Characters;
